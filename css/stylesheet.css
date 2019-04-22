@@ -181,11 +181,11 @@ footer {
 .button-footer:focus {outline: none;}
 .a-button-footer {color:white;text-decoration: none}
 
-.a-footer {color:rgb(160, 181, 185);text-decoration: none}
+.a-footer {color:rgb(160, 181, 185); text-decoration: none}
 .a-footer:hover {color: rgb(149, 131, 68)!important}
 .a-footer:visited {color: aliceblue}
 .p-footer {
-	font-family:Raleway,Arial,sans-serif;
+	font-family: Raleway, Arial, sans-serif;
 	color: rgb(160, 181, 185);
 	font-size: .9rem;
 	font-weight: 100;
@@ -343,7 +343,7 @@ div.display-left {
 	margin-top: 10px;
 }
 .p3-container a {text-decoration: none}
-					/*проба_3*/
+					
 /* 100% - (5 * 4%) = 80%
 80%/5 = 16% */
 @media only screen and (max-width : 940px), only screen and (max-device-width : 940px) {
@@ -365,13 +365,10 @@ div.display-left {
 @media only screen and (max-width : 320px), only screen and (max-device-width : 320px) {
 	.p3-container ul li{width: 96%}
 }
-					/*проба_3*/
-
+					
 					/*video*/
 #p4-contaner {
-/*	display: inline-block;*/
-/*	vertical-align: middle;*/
-/*	position: relative;*/
+	display: inline-block;
 	margin: 0 10%
 }
 .p4-video {
@@ -379,45 +376,58 @@ div.display-left {
 	float: inherit;
 	width: 560px;
 	height: 315px;
-	margin: 20px 0;
+	margin: 50px 0px 0px 50px;;
 	box-shadow: 1px 2px 10px #000;
 }
-#p4-description {
+#p4-D {
 	display: inline-block;
+	float: right;
 	width: 500px;
 	height: auto;
-	float: right;
-	margin: 35px 30px 0 ;
+	text-align: justify;
+	margin: 50px 0 0 50px;
 }
+#p4-D h3 {
+	font-family: oswald,sans-serif;
+	margin-bottom: 10px;
+}
+footer#p4 {margin-top: 50px}
 					/*equipment*/
-/*
 #p5-contaner {
 	display: inline-block;
-	vertical-align: middle;
-	position: relative;
-	margin: 0 10%
-}
-*/
-.p5-video {
-	display: block;
-	width: 560px;
-	height: 315px;
-	margin: 20px 0;
-	box-shadow: 1px 2px 10px #000;
+	margin: 0 10%;
 }
 .p5-img {
-	display: block;
+	display: inline-block;
 	float: right;
-	margin: 0 20px;
-	transform: translateY(-70px);
-	width: 500px;
-	height: 500px;
-	text-align: center
+	width: 400px;
+	margin: 60px 30px 0;
 }
-#p5-01 {
+#p5-D {
 	display: inline-block;
 	float: left;
+	width: 50%;
+	margin: 40px 0 0 50px;
+	text-align: justify;
 }
-
-	
-
+#p5-D h3 {
+	font-family: oswald,sans-serif;
+	margin-bottom: 10px;
+}
+.p5-video {
+	display: inline-block;
+	float: right;
+	width: 460px;
+	height: 260px;
+	margin: 90px 0 0;
+	box-shadow: 1px 2px 10px #000;
+}
+.p5-V2 {
+	display: inline-block;
+	float: right;
+	width: 460px;
+	height: 258px;
+	margin: 90px 0 0;
+	box-shadow: 1px 2px 10px #000;
+}
+footer#p5 {margin-top: 50px}
