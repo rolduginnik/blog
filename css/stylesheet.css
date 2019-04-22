@@ -39,8 +39,7 @@ table {
 } 
 					/* end reset browser styles */
 
-					/*All*/
-*, *:before, *:after {box-sizing: inherit}
+					/*all*/
 html, body {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15px;
@@ -53,6 +52,7 @@ h3 {font-size:24px}
 h4 {font-size:20px}
 h5 {font-size:18px}
 h6 {font-size:16px}
+
 					/*header*/
 header {
 	width: 100%;
@@ -100,6 +100,7 @@ header .button-left:hover {
 }
 .button-left:active {background-color: black}
 .button-left:focus {outline: none;}
+					
 					/*footer*/
 footer { 
 	width: 100%;
@@ -128,7 +129,7 @@ footer {
 	cursor: pointer;
 }
 .button-footer:focus {outline: none;}
-.a-button-footer {color:white;text-decoration: none}
+.a-button-footer {color:white; text-decoration: none}
 
 .a-footer {color:rgb(160, 181, 185); text-decoration: none}
 .a-footer:hover {color: rgb(149, 131, 68)!important}
@@ -186,7 +187,7 @@ h3.wite {
 	font-weight: 500;
 	font-size: 1.6em;
 }
-					/* Email button*/
+					/*email button*/
 .btn {
 	font-family: oswald,sans-serif;
 	font-size: 18px;
@@ -278,9 +279,11 @@ div.display-left {
 	width: 190px;
 	height: 123px; 
 	border-radius: 5px; 
-	box-shadow: 1px 2px 10px #000 
+	box-shadow: 1px 2px 10px #000;
+	opacity: 0.95;
+	-moz-opacity:0.95;
 }
-.p3-container ul li a img:hover {box-shadow: 3px 20px 30px rgb(153, 168, 156)}
+.p3-container ul li a img:hover {box-shadow: 3px 15px 30px rgb(153, 168, 156);opacity: 1}
 .p3-container p {
 	font-size: 1.2em;
 	color: #434040;
@@ -297,27 +300,10 @@ div.display-left {
 }
 .p3-container a {text-decoration: none}
 					
-/* 100% - (5 * 4%) = 80%
-80%/5 = 16% */
-@media only screen and (max-width : 940px), only screen and (max-device-width : 940px) {
-	.p3-container ul li{width: 29.3333%}
-}
-/* 100% - (3 * 4%) = 88%
-88%/3 = 29.3333% */
-@media only screen and (max-width : 720px), only screen and (max-device-width : 720px) {
-	.p3-container ul li{width: 46%}
-}
-/* 100% - (2 * 4%) = 84%
-80%/2 = 46% */
-@media only screen and (max-width : 530px), only screen and (max-device-width : 530px) {
-	.p3-container ul li{width: 46%}
-	.button-right {display: none;}
-}
-/* 100% - (1 * 4%) = 96%
-96 */
-@media only screen and (max-width : 320px), only screen and (max-device-width : 320px) {
-	.p3-container ul li{width: 96%}
-}
+@media only screen and (max-width : 940px), only screen and (max-device-width : 940px) {.p3-container ul li{width: 29.3333%}}
+@media only screen and (max-width : 720px), only screen and (max-device-width : 720px) {.p3-container ul li{width: 46%}}
+@media only screen and (max-width : 530px), only screen and (max-device-width : 530px) {.p3-container ul li{width: 46%}	.button-right {display: none;}}
+@media only screen and (max-width : 320px), only screen and (max-device-width : 320px) {.p3-container ul li{width: 96%}}
 					
 					/*video*/
 #p4-contaner {
@@ -345,6 +331,7 @@ div.display-left {
 	margin-bottom: 10px;
 }
 footer#p4 {margin-top: 50px}
+
 					/*equipment*/
 #p5-contaner {
 	display: inline-block;
