@@ -8,57 +8,6 @@
     font-weight: normal;
     font-style: normal;
 }
-@font-face {
-    font-family: '../fonts/oswald_extralightregular';
-    src: url('../fonts/oswald-extralight-webfont.eot');
-    src: url('../fonts/oswald-extralight-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/oswald-extralight-webfont.woff2') format('woff2'),
-         url('../fonts/oswald-extralight-webfont.woff') format('woff'),
-         url('../fonts/oswald-extralight-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'oswald_lightregular';
-    src: url('../fonts/oswald-light-webfont.eot');
-    src: url('../fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/oswald-light-webfont.woff2') format('woff2'),
-         url('../fonts/oswald-light-webfont.woff') format('woff'),
-         url('../fonts/oswald-light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'oswald_mediumregular';
-    src: url('../fonts/oswald-medium-webfont.eot');
-    src: url('../fonts/oswald-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/oswald-medium-webfont.woff2') format('woff2'),
-         url('../fonts/oswald-medium-webfont.woff') format('woff'),
-         url('../fonts/oswald-medium-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'oswaldregular';
-    src: url('../fonts/oswald-regular-webfont.eot');
-    src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/oswald-regular-webfont.woff2') format('woff2'),
-         url('../fonts/oswald-regular-webfont.woff') format('woff'),
-         url('../fonts/oswald-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'oswald_semiboldregular';
-    src: url('../fonts/oswald-semibold-webfont.eot');
-    src: url('../fonts/oswald-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/oswald-semibold-webfont.woff2') format('woff2'),
-         url('../fonts/oswald-semibold-webfont.woff') format('woff'),
-         url('../fonts/oswald-semibold-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 					/* reset browser styles */
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
@@ -108,7 +57,7 @@ h6 {font-size:16px}
 header {
 	width: 100%;
 	background-color: #000;
-	height: 40px;
+	height: 45px;
 	position: relative;
 }
 .icon {width: 26px; height: 26px}
@@ -119,7 +68,7 @@ header {
 	height: 26px;
 	position: relative;
 	float: right;
-	margin: 6px 10px 0 0;
+	margin: 9px 10px 0 0;
 	background-color: rgb(255, 255, 255);
 }
 .button-right:hover {
@@ -141,13 +90,13 @@ header {
 	padding: .4em 8px 0.4em 0.4em;
 	box-shadow: 0 0.2em 3px rgba(0, 0, 0, 0.48); 
 	float: left;
-	margin: 6px 0 0 10px;
+	margin: 9px 0 0 10px;
 }
 header .button-left:hover {
 	background-color: rgb(149, 131, 68);
 	cursor: pointer;
 }
-.button-left.it { background-color: rgba(255, 255, 255, 0.56)
+.button-left.it { background-color: rgba(255, 255, 255, 0.56);border: 1px dotted #fff;
 }
 .button-left:active {background-color: black}
 .button-left:focus {outline: none;}
@@ -285,7 +234,7 @@ div.display-left {
 	float: left;
 	width: 400px;
 	height: 545px;
-	margin: 0 30px 0 0;
+	margin: 0 40px 0 0;
 	padding: 10px;
 	background-color: white;
 	transform: rotateY(180deg);
@@ -293,6 +242,10 @@ div.display-left {
 #p2-description {
 	display: block;
 	text-align: justify;
+}
+#p2-description h3 {
+	font-family: oswald,sans-serif;
+	margin-bottom: 10px;
 }
 #p2-footer {
 	display: inline-block;
@@ -401,12 +354,12 @@ footer#p4 {margin-top: 50px}
 	display: inline-block;
 	float: right;
 	width: 400px;
-	margin: 60px 30px 0;
+	margin: 60px 30px 10px;
 }
 #p5-D {
 	display: inline-block;
 	float: left;
-	width: 50%;
+	width: 48%;
 	margin: 40px 0 0 50px;
 	text-align: justify;
 }
