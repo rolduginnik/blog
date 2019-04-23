@@ -243,6 +243,7 @@ div.display-left {
 #p2-description {
 	display: block;
 	text-align: justify;
+	width: 900px
 }
 #p2-description h3 {
 	font-family: oswald,sans-serif;
